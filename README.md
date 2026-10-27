@@ -45,8 +45,6 @@ Live URL: http://13.239.138.135/
 - IAM permissions should follow least privilege.
 - Do not commit private keys, passwords, or AWS credentials.
 
-## Evidence
-See the screenshots/ folder for deployment evidence.
 
 ## Technologies
 AWS EC2 | Ubuntu | Apache | HTML | AWS IAM
