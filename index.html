@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website deployed on Amazon EC2 using Ubuntu and Apache as part of the Codomax internship.">
+    <title>Codomax | AWS Deployment Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            padding: 24px 8%;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .tag {
+            color: #67e8f9;
+            border: 1px solid #155e75;
+            background: #164e63;
+            padding: 8px 16px;
+            border-radius: 24px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 56px);
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        main p {
+            max-width: 650px;
+            color: #cbd5e1;
+            line-height: 1.8;
+            margin-bottom: 18px;
+        }
+
+        .status {
+            display: inline-block;
+            color: #86efac;
+            border: 1px solid #166534;
+            background: #14532d;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-top: 12px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 32px;
+        }
+
+        .service {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 10px;
+            padding: 16px 22px;
+            color: #e2e8f0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            border-top: 1px solid #334155;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Codomax | Cloud Projects</h2>
+    </header>
+
+    <main>
+        <div class="tag">AWS Internship Project</div>
+
+        <h1>Website Successfully <span>Deployed!</span></h1>
+
+        <p>
+            Welcome to my AWS deployment project, completed as part
+            of Codomax Module 2: AWS IAM &amp; EC2.
+        </p>
+
+        <p>
+            This static website is hosted on an Ubuntu Amazon EC2
+            instance and served using the Apache HTTP Server.
+        </p>
+
+        <div class="status">
+            &#10003; Web Server Deployment Successful
+        </div>
+
+        <div class="services">
+            <div class="service">Amazon EC2</div>
+            <div class="service">Ubuntu Linux</div>
+            <div class="service">Apache HTTP Server</div>
+            <div class="service">HTML &amp; CSS</div>
+        </div>
+    </main>
+
+    <footer>
+        Codomax Internship | Module 2 | AWS IAM &amp; EC2
+    </footer>
+</body>
+</html>
